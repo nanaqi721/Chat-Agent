@@ -1,9 +1,12 @@
 # Python bytecode and caches
+
+# python缓存
 __pycache__/
 *.py[cod]
 *$py.class
 
 # Virtual environments
+# 虚拟环境
 .venv/
 venv/
 env/
@@ -12,6 +15,7 @@ ENV/
 # Environment variables and local secrets
 .env
 .env.*
+# 保留env的示例
 !.env.example
 !.env.template
 
