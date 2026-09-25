@@ -1,0 +1,21 @@
+app:
+  name: Chat-Agent
+  environment: development
+  debug: false
+
+database:
+  echo: false # 执行sql在控制台打印日志开关
+  pool_size: 5
+  max_overflow: 10
+
+
+llm:
+  default_provider: siliconflow
+
+  providers:
+    siliconflow:
+      base_url: "https://api.siliconflow.cn/v1"
+      enabled: true
+
+
+
